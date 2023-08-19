@@ -1,0 +1,230 @@
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+/* Header */
+
+header {
+    position: fixed;
+    left: 1px;
+    top: 1px;
+    height: 69px;
+    padding: 5px;
+    text-decoration: underline;
+    display: inline-flex;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    width: 97%;
+    opacity: 1;
+    z-index: 3;
+}
+
+header h4{
+    padding: 10px;
+    font-size: 20px !important;
+    justify-content: space-between;
+}
+
+#img1 {
+    height: 50px;
+    padding: 0 50px;
+    margin-right: 700px;
+    justify-content: space-between;
+}
+
+
+
+/* Mission */
+
+.mission {
+    background-image: url('index.jpeg');
+    width: 1200px;
+    height: 700px;
+    margin: 0 100px; 
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    line-height: 18px;
+
+}
+
+.mission h2 {
+    background-color: black;
+    padding: 10px;
+    width: 1200px;
+    height: 35px;
+    margin: 0;
+    justify-content: center;
+    opacity: 1;
+    font-size: 35px;
+}
+
+.mission h4 {
+    background-color: black;
+    padding: 15px;
+    width: 1200px;
+    height: 40px;
+    margin: 0;
+    justify-content: center;
+    opacity: 1;
+}
+
+
+
+/* Featured Tea */
+
+.teaofmonth h2 {
+    font-size: 35px;
+}
+
+.tea-month {
+    width: 1000px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 100px;
+    display: inline-flex; 
+    flex-flow: row wrap;
+    align-content: center;
+}
+
+.berry img{
+    height: 200px;
+    width: 280px;
+    margin: 0 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+.berry {
+    position: relative;
+    left: 50px;
+}
+
+.spiced img{
+    height: 200px;
+    width: 280px;
+    margin: 0 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+.spiced {
+    position: relative;
+    left: 50px;
+}
+
+.donuts img{
+    height: 200px;
+    width: 280px;
+    margin: 0 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.donuts {
+    position: relative;
+    left: 50px;
+}
+
+.myrtle img{
+    height: 200px;
+    width: 280px;
+    margin: 0 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.myrtle {
+    position: relative;
+    left: 200px;
+}
+
+.bizarre img{
+    height: 200px;
+    width: 280px;
+    margin: 0 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.bizarre {
+    position: relative;
+    left: 210px;
+}
+
+
+
+/* Locations */
+
+#location {
+    background-image: url('img-locations-background.jpg');
+    width: 1200px;
+    height: 500px;
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+}
+
+.downtown {
+    width: 300px;
+    margin-left: 70px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.east-bayside {
+    width: 300px;
+    margin: 40px;
+    justify-content: center;
+}
+
+.oakdale {
+    width: 300px;
+    margin: 40px;
+    justify-content: center;
+}
+
+
+
+/* Contact */
+
+.contact {
+    height: 200px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.contact h5 {
+    font-size: 18px !important;
+}
+
+.contact h3 {
+    font-size: 25px !important;
+}
+
+
+
+
+
+
+/* Footer */
+
+footer h5 {
+    float: left;
+    padding: 25px;
+    font-size: 14px !important;
+}
+
+
+
